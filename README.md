@@ -1,0 +1,1 @@
+An abstract PHP class for reading files like .csv and .xls
