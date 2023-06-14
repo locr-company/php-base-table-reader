@@ -1,5 +1,5 @@
 {
-    "name": "locr/base-table-reader",
+    "name": "locr-company/base-table-reader",
     "description": "An abstract class for table-based files (csv, xls).",
     "keywords": [
         "base-table-reader"
