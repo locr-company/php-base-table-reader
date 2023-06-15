@@ -200,7 +200,7 @@ abstract class BaseTableReader implements ITableReader
      *
      * ```php
      * <?php
-     * 
+     *
      * use Locr\Lib\CsvReader; // for an example implementation of this abstract class!
      *
      * $csvReader = new CsvReader();
