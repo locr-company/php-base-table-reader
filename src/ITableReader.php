@@ -8,7 +8,7 @@ interface ITableReader
 {
     public function loadFile(string $filename): void;
     /**
-     * @return array<int, mixed>
+     * @return array<int, array<string>>
      */
     public function readDatasets(int $limit = -1, int $offset = -1): array;
     public function readDatasetsCallback(callable $callback, int $limit = -1, int $offset = -1): int;
