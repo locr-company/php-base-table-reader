@@ -1,4 +1,4 @@
-name: PHP Composer
+name: PHP 8.1
 
 on:
   push:
@@ -39,4 +39,4 @@ jobs:
       run: composer run-script phpcs
 
     - name: Run Static Analyzer (phpstan)
-      run: composer run-script phpstan
+      run: composer run-script phpstan-8.1
