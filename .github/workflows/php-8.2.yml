@@ -1,4 +1,4 @@
-name: PHP 8.1
+name: PHP 8.2
 
 on:
   push:
@@ -35,8 +35,14 @@ jobs:
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
     # Docs: https://getcomposer.org/doc/articles/scripts.md
 
+    - name: Setup PHP with PCOV
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '8.2'
+        coverage: pcov
+
     - name: Run CodeSniffer (phpcs)
       run: composer run-script phpcs
 
     - name: Run Static Analyzer (phpstan)
-      run: composer run-script phpstan-8.1
+      run: composer run-script phpstan-8.2
