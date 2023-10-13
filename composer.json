@@ -4,7 +4,7 @@
     "keywords": [
         "base-table-reader"
     ],
-    "license": "proprietary",
+    "license": "MIT",
     "authors": [
         {
             "name": "Ringo Leese",
