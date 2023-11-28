@@ -30,7 +30,8 @@
         "phpcs": "./vendor/bin/phpcs ./src",
         "phpstan": "@phpstan-8.1",
         "phpstan-8.1": "./vendor/bin/phpstan --configuration=phpstan-8.1.neon",
-        "phpstan-8.2": "./vendor/bin/phpstan --configuration=phpstan-8.2.neon"
+        "phpstan-8.2": "./vendor/bin/phpstan --configuration=phpstan-8.2.neon",
+        "phpstan-8.3": "./vendor/bin/phpstan --configuration=phpstan-8.3.neon"
     },
     "autoload": {
         "psr-4": {
