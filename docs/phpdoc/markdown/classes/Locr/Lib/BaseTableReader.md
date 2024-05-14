@@ -51,6 +51,7 @@ print count($rows); // example: 20
 
 
 
+
 ***
 
 ### readDatasetsCallback
@@ -90,6 +91,7 @@ print $count; // example: 20
 
 
 
+
 ***
 
 ### setFirstLineIsHeader
@@ -112,6 +114,7 @@ public setFirstLineIsHeader(bool $firstLineIsHeader): self
 | Parameter | Type | Description |
 |-----------|------|-------------|
 | `$firstLineIsHeader` | **bool** |  |
+
 
 
 
@@ -154,6 +157,7 @@ print $rows[0]['city']; // example: Braunschweig
 
 
 
+
 ***
 
 ### setIgnoreEmptyLines
@@ -180,8 +184,9 @@ public setIgnoreEmptyLines(bool $ignoreEmptyLines): self
 
 
 
+
 ***
 
 
 ***
-> Automatically generated from source code comments on 2023-06-15 using [phpDocumentor](http://www.phpdoc.org/) and [saggre/phpdocumentor-markdown](https://github.com/Saggre/phpDocumentor-markdown)
+> Automatically generated on 2024-05-14

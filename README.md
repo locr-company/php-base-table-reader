@@ -8,4 +8,4 @@
 
 An abstract PHP class for reading files like .csv and .xls
 
-Here are the [Docs](docs/phpdoc/markdown/index.md)
+Here are the [Docs](docs/phpdoc/markdown/Home.md)

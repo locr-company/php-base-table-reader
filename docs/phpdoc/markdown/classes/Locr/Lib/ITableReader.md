@@ -37,6 +37,7 @@ public loadFile(string $filename): void
 
 
 
+
 ***
 
 ### readDatasets
@@ -60,6 +61,7 @@ public readDatasets(int $limit = -1, int $offset = -1): array&lt;int,string[]&gt
 |-----------|------|-------------|
 | `$limit` | **int** |  |
 | `$offset` | **int** |  |
+
 
 
 
@@ -92,8 +94,9 @@ public readDatasetsCallback(callable $callback, int $limit = -1, int $offset = -
 
 
 
+
 ***
 
 
 ***
-> Automatically generated from source code comments on 2023-06-15 using [phpDocumentor](http://www.phpdoc.org/) and [saggre/phpdocumentor-markdown](https://github.com/Saggre/phpDocumentor-markdown)
+> Automatically generated on 2024-05-14
