@@ -50,6 +50,10 @@ abstract class BaseTableReader implements ITableReader
         };
     }
 
+    /**
+     * @internal
+     * @param callable(array<string>, int): void $callback
+     */
     abstract protected function readDatasetsCallbackInternal(
         callable $callback,
         int $limit = -1,
