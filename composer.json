@@ -30,7 +30,7 @@
         "phpstan/phpstan": "^2.0",
         "phpstan/extension-installer": "^1.4",
         "phpstan/phpstan-deprecation-rules": "^2.0",
-        "saggre/phpdocumentor-markdown": "^0.1",
+        "saggre/phpdocumentor-markdown": "^1.0",
         "squizlabs/php_codesniffer": "^3.11"
     },
     "scripts": {
